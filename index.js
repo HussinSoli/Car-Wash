@@ -45,6 +45,7 @@ for (const i of btnValue) {
     btnSend.addEventListener("click", function () {
       para.remove();
       para1.remove();
+      btn.remove();
       totalNote.textContent = "";
       totalPay.textContent = "0$";
       total = 0;
