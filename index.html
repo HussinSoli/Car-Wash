@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>teezk 7mra</title>
+  </head>
+  <body>
+    <main>
+      <div class="main_header">
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+      </div>
+      <div class="main_body">
+        <div class="main_btn">
+          <button class="btn btn--wash" value="10">Wash Car: $10</button>
+          <button class="btn btn--lawn" value="20">Mow Lawn: $20</button>
+          <button class="btn btn--pull" value="30">Pull Weeds: $30</button>
+        </div>
+        <div class="task_display">
+          <div class="display">
+            <h4>TASK</h4>
+            <h4>TOTAL</h4>
+          </div>
+
+          <div class="task_price m">
+            <div class="task_name"></div>
+            <div class="task_pay"></div>
+          </div>
+        </div>
+        <div class="payment_display">
+          <div class="display m">
+            <h4>NOTES</h4>
+            <h4>TOTAL AMOUNT</h4>
+          </div>
+          <div class="price_display m">
+            <p class="total_notes"></p>
+            <p class="total_pay">0$</p>
+          </div>
+        </div>
+        <div class="btn_send">
+          <img src="Icon.png" alt="" />
+          <button class="btn--send">Send invoice</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
